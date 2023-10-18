@@ -1,2 +1,21 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<h1 class="dashboard-title">Store Dashboard</h1>
+
+<table class="dashboard">
+  <thead>
+    <tr>
+      <th class="dashboard-heading">Total Inventory</th>
+      <th class="dashboard-heading">Total Categories</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="dashboard-data"><%= @products.sum(:quantity)  %></td> 
+      <td class="dashboard-data"><%= @categories.count %></td>
+    </tr>
+    <tr>
+      <td class="dashboard-data" colspan=2 >
+        <%= link_to 'View Inventory', '/admin/products' %>
+      </td>
+    </tr>
+  </tbody>
+</table>
