@@ -1,0 +1,32 @@
+.dashboard {
+
+  .dashboard-heading {
+    font-weight: 900;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-style: italic;
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    
+  }
+  .dashboard-data {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    text-align: center;
+    background-color: lightgreen;
+    border: 1px solid black;
+    
+  }
+}
+
+.dashboard-title {
+  margin: 15px;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  text-align: center;
+}
