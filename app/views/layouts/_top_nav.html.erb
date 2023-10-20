@@ -64,6 +64,11 @@
           My Cart (<%= cart.size %>) <% end %>
         </li>
       </ul>
+      <% if current_user %>
+      Signed in as <%= current_user.first_name %> | <%= link_to "Logout", '/logout', class: "login-link" %>
+      <% else %>
+      <%= link_to 'Login', '/login', class: "login-link" %> | <%= link_to 'Signup', '/signup', class: "login-link" %>
+      <% end %>
     </div>
   </div>
 </nav>
