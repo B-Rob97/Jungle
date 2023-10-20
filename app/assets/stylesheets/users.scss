@@ -1,0 +1,72 @@
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  h1 {
+    font-weight: 600;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 35px;
+  }
+}
+
+.name-field {
+  width: 158px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  font-family: "Montserrat";
+  font-style: italic;
+}
+
+.name-field::placeholder {
+  color: black;
+  opacity: 1;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.input-field {
+  width: 326px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  font-family: "Montserrat";
+  font-style: italic;
+}
+
+.input-field::placeholder {
+  color: black;
+  opacity: 1;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.login-mainbox {
+  text-align: center;
+  width: 350px;
+  height: 258px;
+}
+
+.signup-namebox {
+  display: flex;
+}
+
+.submit-button {
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+  font-weight: 900;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-style: italic;
+  margin-top: 12px;
+}
+
