@@ -1,0 +1,20 @@
+<article class="signup-form">
+  <h1>Signup</h1>
+  <div>
+    <%= form_for :user, url: '/users' do |f| %>
+    <div class="signup-namebox">
+      <div><%= f.text_field :first_name, class: "name-field", placeholder: "First Name" %>
+      </div>
+      <div><%= f.text_field :last_name, class: "name-field", placeholder: "Last Name" %>
+      </div>
+    </div>
+    <div><%= f.text_field :email, class: "input-field", placeholder: "Email" %></div>
+    <div><%= f.password_field :password, class: "input-field", placeholder: "Password" %></div>
+    <div><%= f.password_field :password_confirmation, class: "input-field", placeholder: "Password Confirmation" %></div>
+    <%= f.submit "Submit", class: "submit-button" %>
+    <% end %>
+  </div>
+</article>
+
+
+<div></div>
