@@ -117,3 +117,14 @@ form.button_to {
     background-color: lightgreen;
     border-color: lightgreen;
 }
+
+.login-link {
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: none;
+  margin: 5px;
+}
+
+.login-link:hover {
+  color: rgba(255, 255, 255, 0.75);
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
